@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: 1400px 850px;
+    background-color: rgb(104, 88, 177);
+    background-blend-mode: overlay;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    padding: 30px 80px;
+}
+.head{
+    color: #ffffff;
+display: flex;
+
+}
+.list-box li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.left-head{
+    width: 100%;
+    font-size: 24px;
+
+}
+.right-head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    justify-content: flex-end
+
+}
+
+.right-head a{
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.btn{
+    font-size: 18px;
+    color: #482BE7;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+main{
+    color: #ffffff;
+    display: flex;
+    padding-top: 4rem;
+}
+.section-right, .section-left{
+    width: 100%;
+}
+.section-left p{
+    font-size: 22px;
+    width: 81%;
+    padding-bottom: 30px;
+
+}
+.section-left h1{
+    font-size: 72px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.gbtn{
+    font-size: 20px;
+    color: #482BE7;
+    background-color: #ffffff;
+    width: 125px;
+    border-radius: 20px;
+    padding: 9px;
+    border: none;
+    cursor: pointer;
+}
+.lbtn{
+    font-size: 20px;
+    color: #ffffff;
+    background-color: transparent;
+    width: 125px;
+    border-radius: 20px;
+    padding: 9px;
+    cursor: pointer;
+    border: 1px solid rgb(225, 223, 223);
+}
+#Div{
+    display: flex;
+    gap: 30px;
+}
+
+@media (min-width: 700px) and (max-width: 950px){
+    body{
+        padding: 30px;
+    }
+}
+
+@media (max-width: 600px){
+    body{
+        padding: 30px 15px;
+    }
+    .right-head{
+        display: none;
+    }
+    .section-left h1{
+        font-size: 45px;
+    }
+}
