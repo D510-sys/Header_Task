@@ -68,6 +68,9 @@ main{
     width: 100%;
     padding-bottom: 30px;
 }
+.head i{
+    display: none;
+}
 .gbtn{
     font-size: 20px;
     color: #482BE7;
@@ -109,4 +112,5 @@ main{
     .section-left h1{
         font-size: 45px;
     }
+    .head i{display: block;}
 }
